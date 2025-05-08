@@ -1,5 +1,8 @@
 #!/bin/bash
 
+chmod +x dl.sh
+
+chmod +x cfst
 # 运行dl.sh脚本
 ./dl.sh
 

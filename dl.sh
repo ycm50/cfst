@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 下载文件并保存为 ipv6.txt
-curl https://www.baipiao.eu.org/cloudflare/ips-v6 -o ipv6.txt
+curl -k https://www.baipiao.eu.org/cloudflare/ips-v6 -o ipv6.txt
 
 # 检查文件是否下载成功
 if [ -f "ipv6.txt" ]; then
